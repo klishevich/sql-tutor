@@ -9,6 +9,11 @@ gem 'slim-rails'
 gem 'codemirror-rails'
 gem 'dotenv-rails'
 
+group :production do
+  # Use Puma as the app server
+  gem 'puma', '~> 3.7'
+end
+
 group :development, :test do
   gem 'factory_girl'
   gem 'database_cleaner'
