@@ -7,9 +7,9 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'slim-rails'
 gem 'codemirror-rails'
+gem 'dotenv-rails'
 
 group :development, :test do
-  gem 'dotenv-rails'
   gem 'factory_girl'
   gem 'database_cleaner'
   gem 'byebug'

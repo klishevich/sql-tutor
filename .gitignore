@@ -20,3 +20,4 @@
 .env.test
 auto-highlight-query-text.js
 
+/config/application.yml
