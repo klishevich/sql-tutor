@@ -8,7 +8,7 @@ set :repo_url, "git@github.com:klishevich/sql-tutor.git"
 set :user, 'mike'
 
 # Default value for :linked_files is []
-append :linked_files, ".env.development", ".env.production"
+append :linked_files, ".env.production"
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
